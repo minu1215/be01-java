@@ -1,4 +1,4 @@
-package ex01.basic;
+package day01_java.ex01.basic;
 
 public class Hello {
 	public static void main(String[] args) {

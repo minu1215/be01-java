@@ -1,4 +1,4 @@
-package ex02.dataType;
+package day01_java.ex02.dataType;
 
 public class DataType2 {
 
