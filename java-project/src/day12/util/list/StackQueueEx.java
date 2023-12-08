@@ -6,7 +6,7 @@ class StackQueueEx
 	public static void main(String[] args) 
 	{
 		Stack st = new Stack();
-		// LinkedList�� Queue�������̽��� �����Ͽ���.
+		// LinkedList는 Queue인터페이스를 구현하였다.
 		Queue q = new LinkedList();	
 		
 		st.push("0");
