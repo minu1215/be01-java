@@ -25,6 +25,9 @@ public class MainEntry {
 		// 3. 사용 (DML 명령어)
 		Statement stmt = conn.createStatement();
 		ResultSet rs = stmt.executeQuery("SELECT * FROM GIFT");
+		// excuteQuery() : 반환값 있는 경우 
+		// excuteUpdate() : 반환값 없는 경우(insert, update, delete)
+
 		
 		System.out.printf("%10s%10s%10s%10s\n", "상품번호", "상품명", "최저가", "최고가");
 		while(rs.next()) {
